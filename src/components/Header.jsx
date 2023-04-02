@@ -2,7 +2,7 @@ import "../index.css";
 
 export const Header = () => {
   return (
-    <div className="w-full h-7 fixed">
+    <div className="w-full h-12 bg-background fixed">
       <ul className="flex items-center text-white text-xl p-3 justify-center gap-32">
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>

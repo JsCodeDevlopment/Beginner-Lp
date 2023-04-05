@@ -8,6 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'black': '#000',
         'background': '#181818',
         'violeta': '#a460f9'
       },

@@ -5,7 +5,7 @@ import { Header } from "./Header";
 import { Faixa } from "./Faixa";
 
 
-export const Home = (props) => {
+export const Home = () => {
   return (    
     <>
       <Header />

@@ -2,7 +2,6 @@ import "../index.css";
 import Ui from "../assets/ui.png";
 import Men from "../assets/img-to-home.png";
 import { Header } from "./Header";
-import { Faixa } from "./Faixa";
 
 
 export const Home = () => {
@@ -28,7 +27,6 @@ export const Home = () => {
           </div>
         </section>
       </main>
-      <Faixa />
     </>
   );
 };

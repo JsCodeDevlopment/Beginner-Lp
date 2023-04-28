@@ -10,7 +10,8 @@ export default {
       colors: {
         'black': '#000',
         'background': '#181818',
-        'violeta': '#a460f9'
+        'violeta': '#a460f9',
+        'other-bg': '#262626'
       },
       spacing: {
         'vh': '1014px',

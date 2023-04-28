@@ -1,28 +1,28 @@
 export const Faixa = () => {
   return (
-    <div className="flex w-full h-10 bg-background shadow-black">
+    <div className="flex w-full h-40 items-center justify-around bg-other-bg shadow-2xl">
       <div>
-        <p>
-          <span>+</span>150
+        <p className="text-white text-xl">
+          <span className="text-violeta text-xl">+</span>150
         </p>
-        <p>
-          <span>HAPPY</span> STUDENTS
+        <p className="text-white">
+          <span  className="text-violeta">HAPPY</span> STUDENTS
         </p>
       </div>
       <div>
-        <p>
-          <span>+</span>50
+        <p className="text-white text-xl">
+          <span  className="text-violeta text-xl">+</span>50
         </p>
-        <p>
-          <span>CERTIFIED</span> COURSES
+        <p className="text-white">
+          <span  className="text-violeta">CERTIFIED</span> COURSES
         </p>
       </div>
       <div>
-        <p>
-          <span>+</span>1000
+        <p className="text-white text-xl">
+          <span  className="text-violeta text-xl">+</span>1000
         </p>
-        <p>
-          <span>AWARDS</span> RECEIVED
+        <p className="text-white">
+          <span  className="text-violeta">AWARDS</span> RECEIVED
         </p>
       </div>
     </div>

@@ -22,7 +22,7 @@ function CourseCards({ number }) {
 
 export function Courses() {
   return (
-    <div className="flex w-full h-vh flex-col bg-background">
+    <div className="flex w-full h-auto flex-col bg-background">
       <div className="flex p-10 gap-2 justify-between">
         <p className="text-white text-5xl font-extrabold">
           FIND{" "}

@@ -22,7 +22,7 @@ export const Home = () => {
             esse harum facere qui alias, excepturi.
           </p>
           <div className="flex gap-5 justify-center">
-            <button className="text-white text-xs bg-violeta p-2">LETS START</button>
+            <button className="text-white text-xs scale-105 bg-violeta p-2">LETS START</button>
             <button className="text-white text-xs p-1">READ MORE</button>
           </div>
         </section>

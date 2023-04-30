@@ -1,10 +1,10 @@
 import Man from "../assets/img-to-about.png";
 import { ButtonViolet } from "./Button";
 
-export function About(props) {
+export function About() {
   return (
     <div
-      className="flex h-screen justify-evenly bg-background flex-wrap gap-10 items-center"
+      className="flex h-screen w-full justify-evenly bg-background flex-wrap gap-10 items-center"
       style={{
         backgroundImage:
           "url('https://cdn.discordapp.com/attachments/303213411544596481/1101998228091699220/Circle_1_copiar.png')",

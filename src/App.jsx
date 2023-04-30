@@ -3,6 +3,7 @@ import { Home } from "./components/Home"
 import { Courses } from "./components/Courses"
 import { About } from "./components/About"
 import { Comentarios } from "./components/Comments"
+import { NewsLetter } from "./components/NewsLetter"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <Courses />
     <About/>
     <Comentarios/>
+    <NewsLetter/>
     </>
   )
 }

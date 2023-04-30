@@ -30,7 +30,7 @@ export function Courses() {
             Your Course.
           </span>
         </p>
-        <img src={edition} aria-hidden="true" />
+        <img src={edition} aria-hidden="true" className="max-sm:h-10"/>
       </div>
 
       <div className="flex flex-wrap gap-3 p-3 justify-evenly">

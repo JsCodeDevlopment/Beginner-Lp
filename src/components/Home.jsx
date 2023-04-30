@@ -8,14 +8,14 @@ export const Home = () => {
   return (    
     <>
       <Header />
-      <main className="bg-background pt-12 px-2.5 flex w-full gap-5 items-center justify-around flex-wrap">
+      <main className="bg-background pt-12 px-2.5 py-10 flex w-full gap-5 items-center justify-around flex-wrap">
         <section>
           <img src={Ui} aria-hidden="true" />
         </section>
         <section>
           <img src={Men} aria-hidden="true" />
         </section>
-        <section className="flex flex-col w-72 justify-center">
+        <section className="flex flex-col w-72 gap-3 justify-center">
           <h1 className="text-white text-xl font-semibold">START GUIDE FOR BEGINNER DESIGNERS</h1>
           <p className="text-white">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam soluta

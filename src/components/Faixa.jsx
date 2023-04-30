@@ -1,6 +1,6 @@
 export const Faixa = () => {
   return (
-    <div className="flex w-full h-40 items-center justify-around bg-other-bg shadow-2xl">
+    <div className="flex w-full h-40 items-center justify-around px-10 bg-other-bg shadow-2xl">
       <div>
         <p className="text-white text-xl">
           <span className="text-violeta text-xl">+</span>150

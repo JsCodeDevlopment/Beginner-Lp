@@ -6,7 +6,7 @@ import FacebookIcon from '../assets/Facebook.png'
 
 export function Footer() {
   return (
-    <div className="bg-violeta flex gap-10 h-auto w-full items-center flex-wrap justify-around py-20">
+    <div className="bg-violeta flex gap-10 h-auto w-full items-center flex-wrap justify-around px-10 py-20">
       <div className="flex flex-col gap-0 items-center justify-center">
         <div className="flex flex-col gap-0 items-center justify-center">
           <p className="text-white text-xl font-extrabold">ABOUT</p>

@@ -3,7 +3,7 @@ import { ButtonViolet } from "./Button";
 export function NewsLetter() {
   return (
     <div
-      className="flex h-screen w-full justify-end px-10 py-10 bg-background flex-wrap gap-10 items-center
+      className="flex h-screen w-full justify-end bg-no-repeat px-10 bg-background flex-wrap gap-10 items-center
       max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center"
       style={{
         backgroundImage:

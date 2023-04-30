@@ -4,7 +4,7 @@ import { ButtonViolet } from "./Button";
 export function About() {
   return (
     <div
-      className="flex h-auto w-full justify-evenly py-10 px-10 bg-background flex-wrap gap-10 items-center max-sm:gap-36"
+      className="flex h-auto w-full justify-evenly py-10 px-10 bg-background bg-no-repeat flex-wrap gap-10 items-center max-sm:gap-36"
       style={{
         backgroundImage:
           "url('https://cdn.discordapp.com/attachments/303213411544596481/1101998228091699220/Circle_1_copiar.png')",

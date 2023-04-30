@@ -4,6 +4,7 @@ import { Courses } from "./components/Courses"
 import { About } from "./components/About"
 import { Comentarios } from "./components/Comments"
 import { NewsLetter } from "./components/NewsLetter"
+import { Footer } from "./components/Footer"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <About/>
     <Comentarios/>
     <NewsLetter/>
+    <Footer/>
     </>
   )
 }

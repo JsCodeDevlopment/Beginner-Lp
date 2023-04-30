@@ -4,7 +4,7 @@ import User3 from "../assets/User3.png";
 
 export function Comentarios() {
   return (
-    <div className="flex bg-background gap-5 h-screen w-full flex-col justify-around items-center">
+    <div className="flex bg-background gap-5 h-auto w-full flex-col justify-around items-center">
       <div className="flex flex-col justify-start items-center">
         <p className="text-white text-5xl font-extrabold">WHAT</p>
         <span className="text-violeta text-xl font-extralight">

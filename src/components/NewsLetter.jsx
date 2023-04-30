@@ -23,8 +23,8 @@ export function NewsLetter() {
           </p>
         </div>
         <div className="flex flex-col gap-5 items-center justify-center">
-          <input type="email" placeholder="Email" className="bg-background border-2 border-violeta w-72 focus:bg-black border-2 border-white" />
-          <input type="text" placeholder="First name" className="bg-background border-2 border-violeta w-72 focus:bg-black border-2 border-white" />
+          <input type="email" placeholder="Email" className="bg-background border-2 border-violeta w-72 focus:bg-white" />
+          <input type="text" placeholder="First name" className="bg-background border-2 border-violeta w-72 focus:bg-white" />
         </div>
         <div className="flex items-center justify-center">
           <ButtonViolet name={"SEND"} />

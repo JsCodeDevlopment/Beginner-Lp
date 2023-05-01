@@ -4,6 +4,7 @@ import { ButtonViolet } from "./Button";
 export function About() {
   return (
     <div
+      id="About"
       className="flex h-auto w-full justify-evenly py-10 px-10 bg-background bg-no-repeat flex-wrap gap-10 items-center max-sm:gap-36"
       style={{
         backgroundImage:
@@ -16,12 +17,12 @@ export function About() {
           <span className="text-violeta text-xl font-extralight">Us.</span>
         </p>
         <p className="text-white text-lg font-extralight">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            repellendus nostrum vero provident nulla, necessitatibus id deserunt
-            fuga non nemo aliquid quos laudantium eum fugiat nam facilis officia
-            asperiores. Facere.
-          </p>
-          <ButtonViolet name={"READ MORE"}/>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          repellendus nostrum vero provident nulla, necessitatibus id deserunt
+          fuga non nemo aliquid quos laudantium eum fugiat nam facilis officia
+          asperiores. Facere.
+        </p>
+        <ButtonViolet name={"READ MORE"} />
       </div>
       <div className="">
         <img className="w-80" src={Man} aria-hidden="true" />

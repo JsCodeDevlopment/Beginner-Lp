@@ -3,6 +3,7 @@ import { ButtonViolet } from "./Button";
 export function NewsLetter() {
   return (
     <div
+      id="Newsletter"
       className="flex h-screen w-full justify-end bg-no-repeat px-10 bg-background flex-wrap gap-10 items-center
       max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center"
       style={{
@@ -24,8 +25,16 @@ export function NewsLetter() {
           </p>
         </div>
         <div className="flex flex-col gap-5 items-center justify-center">
-          <input type="email" placeholder="Email" className="bg-background border-2 border-violeta w-72 focus:bg-white max-sm:w-auto" />
-          <input type="text" placeholder="First name" className="bg-background border-2 border-violeta w-72 focus:bg-white max-sm:w-auto" />
+          <input
+            type="email"
+            placeholder="Email"
+            className="bg-background border-2 border-violeta w-72 focus:bg-white max-sm:w-auto"
+          />
+          <input
+            type="text"
+            placeholder="First name"
+            className="bg-background border-2 border-violeta w-72 focus:bg-white max-sm:w-auto"
+          />
         </div>
         <div className="flex items-center w-auto h-3 justify-center">
           <ButtonViolet name={"SEND"} />

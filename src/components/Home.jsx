@@ -8,7 +8,7 @@ export const Home = () => {
   return (    
     <>
       <Header />
-      <main className="bg-background pt-12 px-2.5 flex w-full gap-5 items-center justify-around flex-wrap max-lg:py-10 max-sm:pt-14">
+      <main id="Home" className="bg-background pt-12 px-2.5 flex w-full gap-5 items-center justify-around flex-wrap max-lg:py-10 max-sm:pt-14">
         <section>
           <img src={Ui} aria-hidden="true" />
         </section>

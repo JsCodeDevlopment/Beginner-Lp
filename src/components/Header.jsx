@@ -1,10 +1,11 @@
 import "../index.css";
 import Logo from "../assets/Your-Logo.png";
 import Menu from "../assets/menu.png";
+import { RightMenu } from "./Menu";
 
 export const Header = () => {
   return (
-    <div className="w-full h-12 bg-background fixed">
+    <div className="w-full z-10 h-12 bg-background fixed">
       <div className="flex items-center text-white text-xl p-3 justify-center gap-32">
         <a href="#Home">
           <img src={Logo} aria-hidden="true" className="w-30 h-5" />
@@ -17,6 +18,9 @@ export const Header = () => {
         <a href="#About" className="max-lg:hidden">ABOUT</a>
         <a href="#Newsletter" className="max-lg:hidden">BLOG</a>
       </div>
+      <>
+        <RightMenu/>
+      </>
     </div>
   );
 };
